@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnPage1, btnPage2, btnPage3;
+    Button btnPage1, btnPage2, btnPage3, btnPage4, btnPage5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
         btnPage1 = findViewById(R.id.btnPage1);
         btnPage2 = findViewById(R.id.btnPage2);
         btnPage3 = findViewById(R.id.btnPage3);
+        btnPage4 = findViewById(R.id.btnPage4);
+        btnPage5 = findViewById(R.id.btnPage5);
 
         btnPage1.setOnClickListener(v -> {
             getSupportFragmentManager().beginTransaction()
@@ -38,6 +40,20 @@ public class MainActivity extends AppCompatActivity {
                     .replace(R.id.fragmentContainer, new PageThreeFragment())
                     .commit();
             Toast.makeText(this, "Page 3", Toast.LENGTH_SHORT).show();
+        });
+
+        btnPage4.setOnClickListener(v -> {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragmentContainer, new PageFourFragment())
+                    .commit();
+            Toast.makeText(this, "Page 4", Toast.LENGTH_SHORT).show();
+        });
+
+        btnPage5.setOnClickListener(v -> {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragmentContainer, new PageFiveFragment())
+                    .commit();
+            Toast.makeText(this, "Page 5", Toast.LENGTH_SHORT).show();
         });
     }
 }

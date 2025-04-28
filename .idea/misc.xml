@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Yukki/Desktop/Fragment/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Yukki/Desktop/Fragment/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Yukki/Desktop/Fragment/app/src/main/res/layout/page_five_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Yukki/Desktop/Fragment/app/src/main/res/layout/page_four_fragment.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Yukki/Desktop/Fragment/app/src/main/res/layout/page_one_fragment.xml" value="0.1" />
         <entry key="..\:/Users/Yukki/Desktop/Fragment/app/src/main/res/layout/page_three_fragment.xml" value="0.1" />
         <entry key="..\:/Users/Yukki/Desktop/Fragment/app/src/main/res/layout/page_two_fragment.xml" value="0.1" />

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".PageFiveFragment"
+            android:exported="false" />
+        <activity
+            android:name=".PageFourFragment"
+            android:exported="false" />
+        <activity
             android:name=".PageThreeFragment"
             android:exported="false" />
         <activity

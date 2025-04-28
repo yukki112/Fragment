@@ -4,21 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="#FFD1DC "
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#ffd6f3">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/danipaku"
-    android:layout_marginBottom="16dp" />
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/dani" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Page One Of Fragment Made of yukki"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
+        android:text="Fragment Activity for ITSP"
+        android:textColor="#000"
+        android:textSize="35sp"
         app:fontFamily="@font/delicious_handrawn" />
 </LinearLayout>

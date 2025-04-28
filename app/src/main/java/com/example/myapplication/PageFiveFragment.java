@@ -10,7 +10,6 @@ public class PageFiveFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Make sure this matches your actual layout file name
         return inflater.inflate(R.layout.page_five_fragment, container, false);
     }
 }
